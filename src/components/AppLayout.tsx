@@ -65,17 +65,19 @@ const AppLayout: React.FC = () => {
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(12, 29, 54, 0.9), rgba(0, 181, 184, 0.6))' }} />
         <div className="relative container mx-auto px-4 h-full flex items-center">
           <div className="max-w-2xl text-white">
-            <h1 className="text-5xl font-bold mb-4">AI-Powered Real Estate Deals, Curated by Experts</h1>
-            <p className="text-xl mb-6">
-              Complete a quick 60-second profile and receive AI-curated real estate opportunities tailored to your budget, market, and strategy.
-            </p>
+            <h1 className="text-5xl font-bold mb-4">Find High-ROI Real Estate Deals Before Anyone Else — Powered by AI</h1>
+<p className="text-xl mb-6">
+  ABCDeals.ai scans thousands of listings every day to uncover undervalued,
+        off-market, and high-potential properties matched to your budget, market,
+        and strategy. — Curated by experts.
+</p>
             <div className="flex flex-col sm:flex-row gap-4 mb-6">
               <Button 
                 size="lg" 
                 style={{ backgroundColor: '#00B5B8', color: '#FFFFFF', borderRadius: '12px' }}
                 onClick={() => window.open('https://form.jotform.com/cedricteboul/investor-profile-questionnaire', '_blank')}
               >
-                Get Your Free Smart Report Today
+                Get My First Free AI-Curated Deal
               </Button>
               <Button 
                 size="lg" 
@@ -90,15 +92,15 @@ const AppLayout: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-4 text-sm">
               <div className="flex items-center gap-2">
                 <Shield className="w-5 h-5" style={{ color: '#00B5B8' }} />
-                <span>Trusted by Doctors & Professionals</span>
+                <span>AI scans 20,000+ listings per day</span>
               </div>
               <div className="flex items-center gap-2">
                 <Award className="w-5 h-5" style={{ color: '#00B5B8' }} />
-                <span>AI-Curated & Expert-Verified</span>
+                <span>Finds below-market & high-ROI properties</span>
               </div>
               <div className="flex items-center gap-2">
                 <Zap className="w-5 h-5" style={{ color: '#00B5B8' }} />
-                <span>Smart Investing Made Simple</span>
+                <span>Used by investors, agents & professionals</span>
               </div>
             </div>
           </div>
