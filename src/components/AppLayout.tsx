@@ -98,21 +98,26 @@ const AppLayout: React.FC = () => {
               </Button>
 
             </div>
-            {/* Trust Badges */}
-         <div className="flex items-center gap-2">
-  <Shield className="w-5 h-5" style={{ color: '#00B5B8' }} />
-  <span>Comparable Sales & Market Context Included</span>
+         {/* Trust Badges */}
+<div className="flex flex-col sm:flex-row gap-4 text-sm">
+
+  <div className="flex items-center gap-2">
+    <Shield className="w-5 h-5" style={{ color: '#00B5B8' }} />
+    <span>Comparable Sales & Market Context Included</span>
+  </div>
+
+  <div className="flex items-center gap-2">
+    <Award className="w-5 h-5" style={{ color: '#00B5B8' }} />
+    <span>Key Risks & Red Flags Identified Before Closing</span>
+  </div>
+
+  <div className="flex items-center gap-2">
+    <Zap className="w-5 h-5" style={{ color: '#00B5B8' }} />
+    <span>South Florida Residential Focus · Trusted by Active Investors</span>
+  </div>
+
 </div>
 
-<div className="flex items-center gap-2">
-  <Award className="w-5 h-5" style={{ color: '#00B5B8' }} />
-  <span>Key Risks & Red Flags Identified Before Closing</span>
-</div>
-
-<div className="flex items-center gap-2">
-  <Zap className="w-5 h-5" style={{ color: '#00B5B8' }} />
-  <span>South Florida Residential Focus · Trusted by Active Investors</span>
-</div>
 
               </div>
             </div>
