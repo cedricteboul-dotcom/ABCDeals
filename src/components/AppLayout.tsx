@@ -58,10 +58,22 @@ const AppLayout: React.FC = () => {
         </div>
       </nav>
 
-      {/* Hero */}
-      <div id="home" className="relative h-[600px] bg-cover bg-center" style={{
-        backgroundImage: 'url(https://d64gsuwffb70l.cloudfront.net/68f153af05c0c020778e2996_1763041935977_53d703bf.webp)'
-      }}>
+     {/* Hero */}
+<div
+  id="home"
+  className="relative h-[600px] bg-cover bg-center"
+  style={{
+    backgroundImage: `url("https://d64gsuwffb70l.cloudfront.net/68f153af05c0c020778e2996_1763041935977_53d703bf.webp")`,
+  }}
+>
+  <div
+    className="absolute inset-0"
+    style={{
+      background:
+        "linear-gradient(to right, rgba(12, 29, 54, 0.9), rgba(0, 181, 184, 0.6))",
+    }}
+  />
+
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(12, 29, 54, 0.9), rgba(0, 181, 184, 0.6))' }} />
         <div className="relative container mx-auto px-4 h-full flex items-center">
           <div className="max-w-2xl text-white">
