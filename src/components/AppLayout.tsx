@@ -65,8 +65,7 @@ const AppLayout: React.FC = () => {
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(12, 29, 54, 0.9), rgba(0, 181, 184, 0.6))' }} />
         <div className="relative container mx-auto px-4 h-full flex items-center">
           <div className="max-w-2xl text-white">
-            <h1 className="text-5xl font-bold mb-3">Find High-ROI Real Estate Deals Before Anyone Else,
-              Powered by AI</h1>
+            <h1 className="text-5xl font-bold mb-3"> Before you invest, get your expert ABC Valuation Report</h1>
 <p className="text-xl mb-6">
   ABCDeals.ai scans thousands of listings every day to uncover undervalued,
         off-market, and high-potential properties matched to your budget, market,
