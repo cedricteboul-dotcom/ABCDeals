@@ -65,42 +65,43 @@ const AppLayout: React.FC = () => {
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(12, 29, 54, 0.9), rgba(0, 181, 184, 0.6))' }} />
         <div className="relative container mx-auto px-4 h-full flex items-center">
           <div className="max-w-2xl text-white">
-            <h1 className="text-5xl font-bold mb-3"> Before you invest, get your expert ABC Valuation Report</h1>
+            <h1 className="text-5xl font-bold mb-3"> Don’t Commit Capital Blindly. Get a Professional Deal Report First.</h1>
 <p className="text-xl mb-6">
-  ABCDeals.ai scans thousands of listings every day to uncover undervalued,
-        off-market, and high-potential properties matched to your budget, market,
-        and strategy. — Curated by experts.
-</p>
+  An independent residential deal report by ABCDeals, 
+  built to help investors make informed decisions before they invest — Curated by experts.</p>
             <div className="flex flex-col sm:flex-row gap-4 mb-6">
               <Button 
                 size="lg" 
                 style={{ backgroundColor: '#00B5B8', color: '#FFFFFF', borderRadius: '12px' }}
                 onClick={() => window.open('https://form.jotform.com/cedricteboul/investor-profile-questionnaire', '_blank')}
               >
-                Get My First Free AI-Curated Deal
+                Get My $199 Residential Valuation Report
               </Button>
               <Button 
                 size="lg" 
                 style={{ backgroundColor: '#FFFFFF', color: '#0C1D36', borderRadius: '12px', fontWeight: '600' }}
                 onClick={() => document.getElementById('weekly-report')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                See Sample Report
+                View a Sample Report
               </Button>
 
             </div>
             {/* Trust Badges */}
-            <div className="flex flex-col sm:flex-row gap-4 text-sm">
-              <div className="flex items-center gap-2">
-                <Shield className="w-5 h-5" style={{ color: '#00B5B8' }} />
-                <span>AI scans 20,000+ listings per day</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Award className="w-5 h-5" style={{ color: '#00B5B8' }} />
-                <span>Finds below-market & high-ROI properties</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Zap className="w-5 h-5" style={{ color: '#00B5B8' }} />
-                <span>Used by investors, agents & professionals</span>
+         <div className="flex items-center gap-2">
+  <Shield className="w-5 h-5" style={{ color: '#00B5B8' }} />
+  <span>Comparable Sales & Market Context Included</span>
+</div>
+
+<div className="flex items-center gap-2">
+  <Award className="w-5 h-5" style={{ color: '#00B5B8' }} />
+  <span>Key Risks & Red Flags Identified Before Closing</span>
+</div>
+
+<div className="flex items-center gap-2">
+  <Zap className="w-5 h-5" style={{ color: '#00B5B8' }} />
+  <span>South Florida Residential Focus · Trusted by Active Investors</span>
+</div>
+
               </div>
             </div>
           </div>
