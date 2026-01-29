@@ -123,8 +123,7 @@ const AppLayout: React.FC = () => {
             </div>
           </div>
 
-        </div>
-      </div>
+     
 
       <div id="how-it-works">
         <HowItWorks />
